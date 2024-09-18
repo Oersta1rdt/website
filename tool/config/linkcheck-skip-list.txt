@@ -1,7 +1,7 @@
 # Enter regexp pattern, one per line.
 
 # -----------------------------------------------------------------------------
-# Sites that don't allow robots. Linkcheck won't bother those sites, but if we
+# Sites that can allow robots. Linkcheck won't bother those sites, but if we
 # don't skip them, linkcheck prints every link that didn't check. This list is
 # sometimes too long for Travis, so it is simpler just to skip all site links.
 
@@ -26,7 +26,7 @@ https://groups.google.com/forum/\#!forum/flutter-dev
 https://groups.google.com/forum/\#!forum/flutter-announce
 https://guides.cocoapods.org/syntax/podspec.html\#dependency
 https://help.apple.com/.*?/\#/dev
-
+https://github.com/actions/attest-build-provenance/blob/test/.github%2Fworkflows%2Fcodeql-analysis.yml
 # Links that get redirected, and the target page doesn't have the specified anchor:
 https://developer.android.com/guide/practices/ui_guidelines/icon_design_launcher\#size
 https://material.io/guidelines/motion/transforming-material.html\#transforming-material-radial-transformation
