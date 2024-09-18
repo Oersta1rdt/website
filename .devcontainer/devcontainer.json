@@ -2,7 +2,7 @@
 	// The mcr base container includes node and pnpm.
 	// Flutter is installed in the container during creation.
 	"name": "Flutter documentation website development",
-	"image": "mcr.microsoft.com/devcontainers/javascript-node:latest",
+	"web": "mcr.microsoft.com/devcontainers/javascript-node:latest",
 	"forwardPorts": [4000],
 	"containerUser": "node",
 	"containerEnv": {
